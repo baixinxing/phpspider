@@ -38,11 +38,11 @@ $configs = array(
         //'type' => 'csv',
         //'file' => '../data/qiushibaike.csv',
     //),
-    //'export' => array(
-        //'type'  => 'sql',
-        //'file'  => '../data/qiushibaike.sql',
-        //'table' => 'content',
-    //),
+    'export' => array(
+        'type'  => 'sql',
+        'file'  => '../data/qiushibaike.sql',
+        'table' => 'content',
+    ),
     //'export' => array(
         //'type' => 'db', 
         //'table' => 'content',

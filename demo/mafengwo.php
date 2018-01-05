@@ -10,7 +10,7 @@ $configs = array(
     'name' => '马蜂窝',
     'tasknum' => 1,
     //'save_running_state' => true,
-    'log_show' => true,
+    'log_show' => false,
     'domains' => array(
         'www.mafengwo.cn'
     ),
@@ -28,6 +28,10 @@ $configs = array(
         //'type' => 'db', 
         //'table' => 'mafengwo_content',
     //),
+    'export' => array(
+        'type' => 'csv', 
+        'file' => './data/mafengwo.csv', // data目录下
+    ),
     'fields' => array(
         // 标题
         array(
